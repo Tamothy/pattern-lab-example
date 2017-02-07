@@ -1,0 +1,65 @@
+{
+  "items": [
+    {
+      "style": "style1",
+      "image": "../../../../images/assets/images/pic01.jpg",
+      "title": "Magna"
+    },
+    {
+      "style": "style2",
+      "image": "../../../../images/assets/images/pic02.jpg",
+      "title": "Lorem"
+    },
+    {
+      "style": "style3",
+      "image": "../../../../images/assets/images/pic03.jpg",
+      "title": "Feugiat"
+    },
+    {
+      "style": "style4",
+      "image": "../../../../images/assets/images/pic04.jpg",
+      "title": "Tempus"
+    },
+    {
+      "style": "style5",
+      "image": "../../../../images/assets/images/pic05.jpg",
+      "title": "Aliquam"
+    },
+    {
+      "style": "style6",
+      "image": "../../../../images/assets/images/pic06.jpg",
+      "title": "Veroeros"
+    },
+    {
+      "style": "style2",
+      "image": "../../../../images/assets/images/pic07.jpg",
+      "title": "Ipsum"
+    },
+    {
+      "style": "style3",
+      "image": "../../../../images/assets/images/pic08.jpg",
+      "title": "Dolor"
+    },
+    {
+      "style": "style1",
+      "image": "../../../../images/assets/images/pic09.jpg",
+      "title": "Nullam"
+    },
+    {
+      "style": "style5",
+      "image": "../../../../images/assets/images/pic10.jpg",
+      "title": "Ultricies"
+    }
+    ,
+    {
+      "style": "style6",
+      "image": "../../../../images/assets/images/pic11.jpg",
+      "title": "Dictum"
+    },
+    {
+      "style": "style1",
+      "image": "../../../../images/assets/images/pic12.jpg",
+      "title": "Pretium"
+    }
+  ]
+}

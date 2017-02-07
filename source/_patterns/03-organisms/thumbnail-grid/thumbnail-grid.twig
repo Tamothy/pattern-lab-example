@@ -1,81 +1,11 @@
 <section class="tiles">
 
-  {% include '@molecules/box-thumbnail/box-thumbnail.twig' with {
-    style: 'style1',
-    img: '../../../../images/assets/images/pic01.jpg',
-    title: 'Magna'
-  } %}
-
-  {% include '@molecules/box-thumbnail/box-thumbnail.twig' with {
-    style:  'style2',
-    img: '../../../../images/assets/images/pic02.jpg',
-    title: 'Lorem'
-  } %}
-
-  {% include '@molecules/box-thumbnail/box-thumbnail.twig' with {
-    style: 'style3',
-    img: '../../../../images/assets/images/pic03.jpg',
-    title: 'Feugiat'
-  } %}
-
-  {% include '@molecules/box-thumbnail/box-thumbnail.twig' with {
-    style: 'style4',
-    img: '../../../../images/assets/images/pic04.jpg',
-    title: 'Tempus'
-  } %}
-
-  {% include '@molecules/box-thumbnail/box-thumbnail.twig' with {
-    style: 'style5',
-    img: '../../../../images/assets/images/pic05.jpg',
-    title: 'Aliquam'
-  } %}
-
-  {% include '@molecules/box-thumbnail/box-thumbnail.twig' with {
-    style: 'style6',
-    img: '../../../../images/assets/images/pic06.jpg',
-    title: 'Veroeros'
-  } %}
-
-  {% include '@molecules/box-thumbnail/box-thumbnail.twig' with {
-    style: 'style2',
-    img: '../../../../images/assets/images/pic07.jpg',
-    title: 'Ipsum'
-  } %}
-
-  {% include '@molecules/box-thumbnail/box-thumbnail.twig' with {
-    style: 'style3',
-    img: '../../../../images/assets/images/pic08.jpg',
-    title: 'Dolor'
-  } %}
-
-  {% include '@molecules/box-thumbnail/box-thumbnail.twig' with {
-    style: 'style1',
-    img: '../../../../images/assets/images/pic09.jpg',
-    title: 'Nullam'
-  } %}
-
-  {% include '@molecules/box-thumbnail/box-thumbnail.twig' with {
-    style: 'style5',
-    img: '../../../../images/assets/images/pic10.jpg',
-    title: 'Ultricies'
-  } %}
-
-  {% include '@molecules/box-thumbnail/box-thumbnail.twig' with {
-    style: 'style6',
-    img: '../../../../images/assets/images/pic11.jpg',
-    title: 'Dictum'
-  } %}
-
-  {% include '@molecules/box-thumbnail/box-thumbnail.twig' with {
-    style: 'style4',
-    img: '../../../../images/assets/images/pic12.jpg',
-    title: 'Pretium'
-  } %}
+  {% for item in items %}
+    {% include "@molecules/box-thumbnail.twig" with {
+      img: item.image,
+      style: item.style,
+      title: item.title
+    } %}
+  {% endfor %}
 
 </section>
-
-
-{# <div class="thumbnail-grid" style="text-align: center">
-  <h1>Organism</h1>
-    {% include 'caption-grid-block.twig' %}
-</div> #}
