@@ -68,14 +68,18 @@ plugins:
       molecules:
         paths:
           - ../source/_patterns/02-molecules
+          - ../source/_patterns/02-molecules/box-thumbnail
           - ../source/_patterns/02-molecules/branding
           - ../source/_patterns/02-molecules/caption-block
+          - ../source/_patterns/02-molecules/hi-there
       organisms:
         paths:
           - ../source/_patterns/03-organisms
           - ../source/_patterns/03-organisms/grids/caption-grid-block
           - ../source/_patterns/03-organisms/site/site-footer
           - ../source/_patterns/03-organisms/site/site-header
+          - ../source/_patterns/03-organisms/thumbnail-grid
+          - ../source/_patterns/03-organisms/yo-bloom
       templates:
         paths:
           - ../source/_patterns/04-templates
