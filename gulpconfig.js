@@ -3,7 +3,6 @@ module.exports = {
     enabled: true,
     src: [
       'scss/**/*.scss',
-      'css/**/*.css',
       'source/_patterns/**/*.scss',
       'source/styleguide/*.scss',
     ],
