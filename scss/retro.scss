@@ -11,13 +11,18 @@
 //
 
 // Better style reset, https://github.com/JohnAlbin/normalize-scss
-@import "normalize-scss/sass/normalize";
+// @import "normalize-scss/sass/normalize";
 // Grid system, https://github.com/at-import/Singularity
 @import "singularity/stylesheets/singularitygs";
 // A cleaner way to do breakpoints/media queries, http://breakpoint-sass.com/,
 @import "breakpoint-sass/stylesheets/breakpoint";
 // Helpful mixins, http://bourbon.io/docs/
-@import "bourbon/app/assets/stylesheets/bourbon";
+// @import "bourbon/app/assets/stylesheets/bourbon";
+
+// This is the main.css asset from HTML5 project
+// @import 'main';
+// This is the font-awesome.min.css asset from HTML5 project
+// @import 'font-awesome.min';
 
 //
 // End libs
